@@ -4,6 +4,10 @@ body{
 *{
 
 }
+image{
+    width: 100vw;
+    height: 100vh;
+}
 
 .head{
     display: grid;
