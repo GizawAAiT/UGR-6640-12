@@ -8,11 +8,12 @@
 }
 .super__container{
     display: grid;
-    grid-template-rows: 17vh auto 50px ;
+    grid-template-rows: 20vh auto 50px ;
     
 }
 header{
     background-image: url(../image/header\ background.jpg);
+    opacity: 80%;
     position: -webkit-sticky;
     position: sticky;
     top: -40px;
@@ -41,7 +42,8 @@ header{
 }
 
 #e{
-   
+    border-style: solid 3px rgb(168, 14, 14);
+
     list-style-type: none;
     margin-right: 3vw;
     display: flex;
@@ -49,6 +51,7 @@ header{
     flex-direction: row;  
     justify-content: flex-end;
     align-content: flex-end;
+
 }
 .body{
     background-size: cover;
@@ -58,13 +61,18 @@ header{
     grid-template-rows: 30px 1fr;
 }
 .ancher{
+    box-shadow: rgb(110, 70, 56) 2px -4px -3px;
+    border:0.003px solid;
+    border-radius: 30px;
+    background: rgba(7, 30, 39, 0.76);
     text-decoration: none;
-    color: rgb(8, 199, 183);
+    color: rgba(12, 235, 123, 0.986);
     font-size: 1.26em;
     font-weight: 660;
     text-transform: uppercase;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
 .rest{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -83,7 +91,7 @@ header{
     grid-template-rows: 50px;
 }
 footer p{
-    font-size: 12px;
+    font-size: 16px;
 }
 
 footer img{
