@@ -52,14 +52,8 @@ header{
     justify-content: flex-end;
     align-content: flex-end;
 }
-.body
-{
-    background-size: cover;
-}
-.body-part{
-    display: grid;
-    grid-template-rows: 30px 1fr;
-}
+
+
 .ancher{
     box-shadow: rgb(110, 70, 56) 2px -4px -3px;
     border:0.003px solid;
@@ -72,18 +66,15 @@ header{
     text-transform: uppercase;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+.ancher:hover{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(140, 0, 255); 
+}
 
-.rest{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-.navigation li{
-    list-style-type: none;
-    border-radius: 10px;
-    text-decoration: none;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
-}
+
+
+
 
 .foot{
     background-color: rgba(0, 100, 0, 0.342);
