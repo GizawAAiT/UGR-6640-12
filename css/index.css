@@ -1,7 +1,7 @@
 .main{
     display: grid;
-    grid-template-rows: 10vw 70vh auto;
-    background: rgba(19, 19, 20, 0.801);
+    grid-template-rows: 10vw auto auto;
+    background: rgba(65, 65, 97, 0.74);
 }
 .name p{
     font-size: 4rem; 
@@ -10,7 +10,7 @@
 }
 .upper{
     display: grid;
-    grid-template-columns: 60vw auto;
+    grid-template-columns: auto auto;
 }
 .merge{
     margin-top: -10vh;
@@ -57,27 +57,28 @@
 }
 
 #a{
-    color: orangered;
+    color: rgb(167, 9, 9);
     grid-row: 2;
-    grid-column: 1 / 6;
+    grid-column: 2 / 6;
+    font-size: 18px;
 }
 #dash{
     margin-top: 12px;
     grid-row: 3;
-    grid-column: 6 / 8;
+    grid-column: 7/ 9;
     border-top: rgb(145, 42, 4) 4px solid;
 }
 #b{
     font-size: 20px;
     grid-row: 4 / 7;
-    grid-column: 1 / 7;
+    grid-column: 2 / 7;
     font-weight: 700;
 }
 #c{
     margin-left: -30px;
     margin-top: 10px;
     grid-row: 7 / -1;
-    grid-column: 2/ 7;
+    grid-column: 3/ 7;
     font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
 }

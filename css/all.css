@@ -8,7 +8,7 @@
 }
 .super__container{
     display: grid;
-    grid-template-rows: 20vh auto 50px ;
+    grid-template-rows: 15vh auto 100px ;
     
 }
 header{
