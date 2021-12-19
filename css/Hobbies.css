@@ -1,11 +1,8 @@
-main{
-    display: grid;
-    grid-template-rows: auto auto;
+main {
+  display: grid;
+  grid-template-rows: auto auto;
 }
-.above{
-    
-
+.above {
 }
-.below{
-
+.below {
 }
