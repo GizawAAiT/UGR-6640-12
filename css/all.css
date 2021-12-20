@@ -12,6 +12,8 @@
 }
 header {
   background-image: url(../image/rainbow.jfif);
+  /* opacity: 0.3; */
+  background-color: chartreuse;
   background-repeat: no-repeat;
   background-size: 100%;
   opacity: 80%;
@@ -28,7 +30,7 @@ header {
   position: fixed;
 }
 .logo img {
-  margin-top: -3.5vh;
+  margin-top: -2.5vh;
   width: 7vw;
   height: 10vh;
   border-radius: 7vw;
@@ -80,16 +82,20 @@ header {
     height: 100px;
     background-color: rgb(140, 0, 255); 
 } */
+footer{
+  background: linear-gradient(to right,rgba(62, 61, 119, 0.205),rgba(56, 104, 56, 0.274),rgba(136, 74, 148, 0.185),rgba(48, 102, 77, 0.164),rgba(38, 124, 158, 0.527),rgba(14, 99, 88, 0.219),rgba(71, 26, 29, 0.384),rgba(253, 252, 251, 0.514),rgba(67, 104, 134, 0.253),rgba(46, 11, 30, 0.219),rgba(50, 74, 102, 0.966));
+}
 
-.foot {
+.foot{
   display: flex;
   margin: 4% 15vw;
   justify-content: space-between;
   justify-items: center;
 }
 .addisababa {
-  margin-top: -5vh;
+  margin-top: -2vh;
 }
 .addisababa img {
+
   margin-left: 5vw;
 }

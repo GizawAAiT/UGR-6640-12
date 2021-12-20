@@ -1,11 +1,11 @@
 .main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-.lang-name {
+} 
+.prog{
   text-align: center;
-  padding: 49px;
-  border-top: 1px solid blue;
+  padding: 45px;
+  border-top: 1px solid greenyellow;
 }
 
 .prog:last-child {
@@ -16,40 +16,40 @@
   font-weight: 600;
   text-transform: uppercase;
 }
-.lang-name-item {
+.lang-item {
   position: relative;
   max-width: 248px;
   width: 100%;
   margin-bottom: 30px;
   color: chartreuse;
 }
-.chart-container {
+.chart-character {
   position: relative;
   width: 100%;
   height: 0;
   padding-top: 100%;
   margin-bottom: 27px;
 }
-.lang-name-item .chart,
-.lang-name-item .chart canvas {
-  position: relative;
+.lang-item .chart,
+.lang-item .chart canvas {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100% !important;
   height: 100% !important;
 }
 
-.lang-name-item .chart:before {
+.lang-item .chart:before {
   content: "";
   width: 0;
   height: 100%;
 }
-.lang-name-item .chart:before,
-.lang-name-item .percent {
-  display: inline-block;
+.lang-item .chart:before,
+.lang-item .percent {
+  display:inline-flexbox; 
   vertical-align: middle;
 }
-.lang-name-item .percent {
+.lang-item .percent {
   position: relative;
   line-height: 1;
   font-size: 40px;
@@ -57,7 +57,10 @@
   font-weight: 600;
   z-index: 2;
 }
-.lang-name-item .percent:after {
+.lang-item .percent:after {
   content: attr(data-after);
   font-size: 20px;
+}
+#chart{ 
+  font-weight: 800;
 }

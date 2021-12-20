@@ -8,6 +8,7 @@
 }
 .left,
 .right {
+
   margin-left: 12%;
 }
 .left {
@@ -100,6 +101,9 @@ ol {
   align-content: center;
   justify-content: center;
   background-color: rgba(102, 80, 122, 0.425);
+}
+.erdata a:hover{
+ background: linear-gradient(to right, rgb(240, 0, 0) ,rgb(151, 9, 9) ,rgb(77, 73, 48), rgba(0, 255, 234, 0.445), rgb(0, 255, 76) ,rgb(225, 0, 255), rgba(0, 238, 255, 0.555), rgb(165, 133, 158), rgb(158, 22, 67));
 }
 .boxx,.box2 {
   margin: 5% 2%;

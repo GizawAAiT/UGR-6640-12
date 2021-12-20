@@ -1,8 +1,101 @@
-main {
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.leftorder {
+  margin: 2vh 3vw;
+}
+.video-ball {
+  display: flex;
+  justify-content: space-between;
+  margin: 20vh 3vw;
+  background:rgba(114, 122, 146, 0.329);
+}
+.aa,
+.bb {
+  margin: 3% 1.3vw;
+}
+
+.flexbox {
+  margin: 20vh 3vw;
+  max-width: 40vw;
+  max-height: 45vh;
+  border: rgba(11, 6, 80, 0.459) solid 4px;
+  border-left: rgb(11, 11, 68) solid 16px;
+  border-right: rgb(1, 1, 20) solid 16px;
+  overflow-x: auto;
+}
+.boxs {
+  display: flex;
+  /* justify-content: space-around; */
+  margin: 4vh 12vw;
+  margin-left: 6vw;
+  gap: 3em;
+  
+}
+.boxs a{
+  text-decoration: none;
+  color: rgba(15, 43, 97, 0.918);
+}
+.boxs img {
+  width: 13vw;
+  height: 11vh;
+}
+
+
+.rightorder {
   display: grid;
   grid-template-rows: auto auto;
 }
-.above {
+.list1{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.below {
+
+.list1 h3{
+  grid-column: 4/7;
+  grid-row: 2;
 }
+#leasure{
+  background: linear-gradient(to right,rgb(250, 249, 249),rgba(40, 41, 121, 0.356),rgba(30, 255, 0, 0.466),rgb(0, 217, 255),rgba(125, 42, 150, 0.438),rgba(60, 135, 148, 0.719),rgb(252, 248, 248));
+  grid-column: 4/8;
+  grid-row: 4;
+}
+#code{
+  background: linear-gradient(to right,rgb(250, 249, 249),rgba(40, 41, 121, 0.356),rgba(30, 255, 0, 0.466),rgb(0, 217, 255),rgba(125, 42, 150, 0.438),rgba(60, 135, 148, 0.719),rgb(252, 248, 248));
+  grid-column: 7/10;
+  grid-row: 6;
+}
+#social{
+  background: linear-gradient(to right,rgb(250, 249, 249),rgba(40, 41, 121, 0.356),rgba(30, 255, 0, 0.466),rgb(0, 217, 255),rgba(125, 42, 150, 0.438),rgba(60, 135, 148, 0.719),rgb(252, 248, 248));
+  grid-column: 3/6;
+  grid-row: 7;
+}
+.rectangle{
+  margin: 20vh 2.5vw;
+  border-radius: 40px;
+  background: rgba(88, 74, 53, 0.144);
+}
+.conta{
+  padding: 3vh 2vw;
+}
+.rectangle img{
+  width: 8vw;
+  height: 7vh;
+
+}
+#newspaper{
+  float: left;
+  margin: 2%;
+
+}
+.elec{
+  margin-top: 5vh;
+}
+.smedia{
+  float: left;
+  margin: 2%;
+
+}
+
