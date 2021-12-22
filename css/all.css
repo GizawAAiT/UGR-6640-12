@@ -65,14 +65,17 @@ footer{
 }
 
 .menu li a {
-  color: rgb(45, 253, 4);
+  color: rgb(51 255 0 / 97%);
   display: block;
   padding: 5px 25px;
+  /* background-color: rgb(240, 255, 255); */
   font-size: 18px;
   line-height: 1;
-  transition: 0.4s;
+  transition: 0.7s;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  "Lucida Sans", Arial, sans-serif;
+  z-index: 30;
+  backdrop-filter: brightness(0.5);
 }
 .menu li a:hover {
   box-shadow: 0 -3px 0px rgb(17, 28, 177) inset;
@@ -172,26 +175,20 @@ footer{
 footer {
   background: linear-gradient(
 to right,
-rgba(62, 61, 119, 0.205),
-rgba(56, 104, 56, 0.274),
-rgba(136, 74, 148, 0.185),
-rgba(48, 102, 77, 0.164),
-rgba(38, 124, 158, 0.527),
-rgba(14, 99, 88, 0.219),
-rgba(71, 26, 29, 0.384),
-rgba(253, 252, 251, 0.514),
-rgba(67, 104, 134, 0.253),
-rgba(46, 11, 30, 0.219),
-rgba(50, 74, 102, 0.966)
+rgba(20, 17, 68, 0.692),
+rgba(20, 4, 39, 0.733)
+/* rgba(202, 11, 202, 0.678),
+rgba(37, 87, 94, 0.562) */
+
 );
   margin-bottom: -22px;
-  margin-top: -7px;
+  margin-top: 0px;
 }
 
 
 .foot {
   display: flex;
-  margin: 4% 15vw;
+  margin: 2% 15vw;
   justify-content: space-between;
   justify-items: center;
 }
