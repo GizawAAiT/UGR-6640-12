@@ -41,6 +41,11 @@
   width: 13vw;
   height: 11vh;
 }
+.meme {
+  width: 40vw;
+  height: 30vh;
+  margin-bottom: 90px;
+}
 
 
 .rightorder {
@@ -96,6 +101,61 @@ grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 .smedia{
   float: left;
   margin: 2%;
+
+}
+@media screen and (max-width:950px) {
+  .video-ball {
+    display: flex;
+    justify-content: space-between;
+    margin: 4vh 1vw;
+    background: rgba(114, 122, 146, 0.329);
+    margin: 40px -73px 4px -4px;
+}
+.list1 {
+  margin: 0 57px;
+}
+#social {
+  background: linear-gradient(to right,rgb(250, 249, 249),rgba(40, 41, 121, 0.356),rgba(30, 255, 0, 0.466),rgb(0, 217, 255),rgba(125, 42, 150, 0.438),rgba(60, 135, 148, 0.719),rgb(252, 248, 248));
+  grid-column: 6;
+  grid-row: 9;
+}
+#code {
+  background: linear-gradient(to right,rgb(250, 249, 249),rgba(40, 41, 121, 0.356),rgba(30, 255, 0, 0.466),rgb(0, 217, 255),rgba(125, 42, 150, 0.438),rgba(60, 135, 148, 0.719),rgb(252, 248, 248));
+  grid-column: 7/10;
+  grid-row: 6;
+  margin-top: 7px;
+}
+#code {
+  background: linear-gradient(to right,rgb(250, 249, 249),rgba(40, 41, 121, 0.356),rgba(30, 255, 0, 0.466),rgb(0, 217, 255),rgba(125, 42, 150, 0.438),rgba(60, 135, 148, 0.719),rgb(252, 248, 248));
+  grid-column: 7/10;
+  grid-row: 6;
+  padding: 0px -13px;
+  margin-left: -71px;
+}
+}
+@media screen and (max-width:800px) {
+  
+.main{
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+}
+/* .list1{
+  grid-row: 1;
+}
+.video-ball{
+  grid-row: 2;
+}
+.flexbox{
+  grid-row: 3;
+}
+
+
+.meme{
+  grid-row: 4;
+}
+.rectangle{
+  grid-row: 5;
+} */
 
 }
 

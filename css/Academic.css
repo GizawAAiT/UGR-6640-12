@@ -30,6 +30,18 @@ main {
   color: rgba(23, 22, 68, 0.74);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.aside h4, .aside p {
+  padding: 0px 0px;
+  width: 55px;
+}
+#main__pharagraph {
+  padding: 9px 10rem;
+  letter-spacing: 0.5px;
+  letter-spacing: 2px;
+  font-family: cursive;
+  font-weight: 800;
+  font-size: 16px;
+}
 
 .gallery {
   background-image: url(../image/aait1.jfif);
@@ -149,5 +161,120 @@ main {
   background-color: rgba(97, 90, 64, 0.281);
   grid-column: 4/8;
   grid-row: -2;
-  /* padding-bottom: 20%; */
+
+}
+
+
+@media screen and (max-width: 865px) {
+
+  .aside{
+    display: none;
+  }
+  .imgcontainer {
+    display: flex;
+    align-items: center;
+    width: 101vw;
+}
+.main {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  margin-top: 57px;
+}
+}
+
+@media screen and (max-width: 765px) {
+  .Dcontainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .Dcontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+.Dcontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 16px;
+  gap: 74px;
+}
+}
+@media screen and (max-width: 700px) {
+
+  .B, .C {
+    border: burlywood solid 2px;
+    display: flex;
+    justify-content: center;
+    margin: 8vh 8vw;
+    border-radius: 30px;
+    flex-direction: column;
+}
+.B img, .C img {
+  width: 74vw;
+  height: 41vh;
+  padding: 11px 22px;
+  margin-left: 28px;
+}
+#main__pharagraph {
+  padding: 1px 4rem;
+  letter-spacing: 0.5px;
+  letter-spacing: 2px;
+  font-family: cursive;
+  font-weight: 800;
+  font-size: 15px;
+}
+}
+@media screen and (max-width: 500px) {
+
+  .gallery {
+    background-image: url(../image/aait1.jfif);
+    background-size: cover;
+    margin: 5% 10%;
+    border-radius: 58;
+    transition: 3s;
+    animation-name: animate;
+    animation-direction: alternate;
+    animation-duration: 40s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    padding: -9px 21px;
+}
+.B img, .C img {
+  width: 71vw;
+  height: 30vh;
+  padding: 11px 22px;
+  margin-left: 28px;
+  border-radius: 54px;
+}
+}
+@media screen and (max-width: 400px) {
+  .B img, .C img {
+    width: 71vw;
+    height: 17vh;
+    padding: 11px 22px;
+    margin-left: 28px;
+    border-radius: 54px;
+}
+.imgcontainer {
+  display: flex;
+  align-items: center;
+  width: 98vw;
+  height: 137px;
+}
+.gallery img {
+  width: 36vw;
+  height: 18vh;
+  opacity: 0.4;
+  margin-left: 133px;
+}
+#main__pharagraph {
+  padding: 1px 1rem;
+  letter-spacing: 0.5px;
+  letter-spacing: 2px;
+  font-family: cursive;
+  font-weight: 800;
+  font-size: 12px;
+}
 }

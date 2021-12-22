@@ -2,65 +2,23 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 } 
-.prog{
-  text-align: center;
-  padding: 45px;
-  border-top: 1px solid greenyellow;
+.left{
+  display: grid;
+  grid-template-rows: auto auto auto;
 }
-
-.prog:last-child {
-  margin-bottom: -30px;
+.heading{
+  padding: 5%;
+  margin-left: 10%;
+  font-size: 10px;
+  text-decoration: underline;
+  padding-right: 15%;
 }
-.prog h2 {
-  margin-bottom: 50px;
-  font-weight: 600;
-  text-transform: uppercase;
+.detail{
+  padding: 2% 8%;
 }
-.lang-item {
-  position: relative;
-  max-width: 248px;
-  width: 100%;
-  margin-bottom: 30px;
-  color: chartreuse;
+#p1,#p2,#p3{
+  margin: 3% 2%;
 }
-.chart-character {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-top: 100%;
-  margin-bottom: 27px;
-}
-.lang-item .chart,
-.lang-item .chart canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
-}
-
-.lang-item .chart:before {
-  content: "";
-  width: 0;
-  height: 100%;
-}
-.lang-item .chart:before,
-.lang-item .percent {
-  display:inline-flexbox; 
-  vertical-align: middle;
-}
-.lang-item .percent {
-  position: relative;
-  line-height: 1;
-  font-size: 40px;
-
-  font-weight: 600;
-  z-index: 2;
-}
-.lang-item .percent:after {
-  content: attr(data-after);
-  font-size: 20px;
-}
-#chart{ 
-  font-weight: 800;
+.boot img{
+  float: left;
 }

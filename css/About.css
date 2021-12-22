@@ -1,32 +1,30 @@
-.up {
-  margin-top: 10vh;
+.main{
+  display: block;
+}
+.main__uper {
   display: grid;
   grid-template-columns: 1fr 12vw 1fr;
+  padding: 36px 13px;
 }
-#name {
-  font-size: 4rem;
-}
-.left,
-.right {
 
-  margin-left: 12%;
-}
-.left {
+.main__uper__left {
   margin-top: 15vh;
   max-width: 35vw;
   max-height: 50vh;
-  border: 2px solid green;
+  border: 2px solid #3c1a699e;
   overflow-y: auto;
+  margin-left: 35px;
 }
-.history {
+.main__uper__left__history {
   display: flexbox;
   flex-direction: column;
+  background: rgba(76, 63, 129, 0.356);
 }
-.left img {
+.main__uper__left img {
   width: 20vw;
   height: 10vh;
 }
-.one {
+.main__uper__left__history .one {
   padding: 4rem 0;
 }
 #myhistory {
@@ -39,19 +37,21 @@
   float: left;
   margin: 5%;
 }
-.p {
-  display: flex;
-  /* gap: ; */
+.paired__images {
+  /* display: flex; */
   justify-content: space-between;
   margin: 2rem 2rem;
+  flex-direction: column;
+  margin-left: 17px;
+  padding-top: 0;
 }
 .pair {
   max-width: 12vw;
 }
-.two p {
+.main__uper__left__history .two p {
   margin: 1rem 2rem -3rem 2rem;
 }
-.three {
+.main__uper__left__history .three {
   margin: 3rem 1.5rem;
 }
 #aait {
@@ -59,28 +59,33 @@
   height: 22vh;
   margin: 2rem auto 1rem auto;
 }
-.middle {
+.main__uper__middle {
   display: flex;
   justify-content: center;
+  margin-left: -61px;
+  margin-top: -9px;
 }
 ol {
   text-transform: uppercase;
 }
-.right {
+.main__uper__right {
+  display: flexbox;
   max-width: 35vw;
   max-height: 50vh;
-  border: 2px solid green;
+  border: 2px solid #003f8070;
   overflow-y: auto;
+  margin-right: 0;
+  background: rgba(49, 85, 85, 0.267);
 }
-.goal {
+.main__uper__right__goal {
   display: flex;
   flex-direction: column;
 }
-.gamea {
+.mobilegame,.cargame {
   width: 14vw;
   height: 12vh;
 }
-.imggame {
+.gamedev__image {
   display: flex;
   justify-content: space-between;
   margin: 1rem 1.7vw;
@@ -92,6 +97,14 @@ ol {
   width: 30vw;
   height: 23vh;
   margin: 2rem 1rem;
+}
+.main__lower{
+  padding: 0 0;
+}
+#main__lower__h1 {
+  margin-top: 19px;
+  margin-left: 26%;
+  margin-bottom: -50px;
 }
 .erdata,.resume {
   display: flex;
@@ -140,3 +153,211 @@ table td{
   justify-self: left;
   background-color: rgba(43, 25, 77, 0.637);
 }
+
+
+@media screen and (max-width: 1000px) {
+
+  .main__uper {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+  }
+  .main__uper__middle {
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    justify-content: flex-end;
+   
+  }
+
+  .main__uper__left {
+    grid-row: 2;
+    grid-column: 1;
+    margin-top: 15vh;
+    max-width: 35vw;
+    max-height: 50vh;
+    border: 2px solid #3c1a699e;
+    overflow-y: auto;
+    margin-left: 35px;
+  }
+
+  .main__uper__right {
+    grid-row: 2;
+    grid-column: 2;
+    display: flexbox;
+    max-width: 35vw;
+    max-height: 50vh;
+    border: 2px solid #003f8070;
+    overflow-y: auto;
+    margin-right: 0;
+    background: rgba(49, 85, 85, 0.267);
+  }
+  .main__uper__left__history .one {
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+  #childhood {
+    width: 25vw;
+    height: 22vh;
+    margin: 3%;
+    border-radius: -1px;
+    border-radius: 39px;
+
+}
+.paired__images img {
+  width: 22vw;
+  height: 20vh;
+  border-radius: 10px;
+  margin-left: 88px;
+  gap: 154px;
+  margin-bottom: 30px;
+  margin-top: 26px;
+}
+.shooldescription{
+  margin: 0 12px;
+}
+.gamedev__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem 1.7vw;
+}
+.gamedev__image img{
+  width: 256px;
+  height: 150px;
+  padding: 17px 6px;
+  border-radius: 43px;
+}
+.main__uper__left p,
+.main__uper__right p{
+  padding: 3px 4px;
+}
+.erdata img, .resume img {
+  max-width: 23vw;
+  max-height: 61vh;
+  margin: 30px;
+  width: 414px;
+  border-radius: 44px;
+  height: 252px;
+}
+.main__uper__left p, .main__uper__right p {
+  padding: 3px 4px;
+  margin-bottom: -100px;
+}
+#childhood {
+  width: 25vw;
+  height: 22vh;
+  margin: 3%;
+  border-radius: -1px;
+  border-radius: 39px;
+  width: 279px;
+  height: 256px;
+  margin-left: 41px;
+}
+}
+
+@media screen and (max-width: 900px) {
+
+  .main__uper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .main__uper__middle {
+    order: -1;
+    display: flex;
+    justify-content: center;
+   
+  }
+
+  .main__uper__left {
+    margin-top: 15vh;
+    max-width: 35vw;
+    max-height: 50vh;
+    border: 2px solid #3c1a699e;
+    overflow-y: auto;
+    margin-left: 35px;
+    justify-content: center;
+  }
+
+  .main__uper__right {
+
+    display: flexbox;
+    max-width: 35vw;
+    max-height: 50vh;
+    border: 2px solid #003f8070;
+    overflow-y: auto;
+    margin-right: 0;
+    background: rgba(49, 85, 85, 0.267);
+    justify-content: center;
+  }
+  .main__uper__left {
+    max-width: 80vw;
+    max-height: 59vh;
+    border: 7px solid #3c1a699e;
+    overflow-y: auto;
+    margin-left: 31px;
+    justify-content: center;
+}
+.main__uper__right {
+  display: flexbox;
+  max-width: 80vw;
+  max-height: 65vh;
+  border: 9px solid #003f8070;
+  overflow-y: auto;
+  margin-right: 0;
+  background: rgba(49, 85, 85, 0.267);
+  margin-left: 30px;
+  margin-top: 90px;
+}
+
+.main__uper__middle {
+  order: -1;
+  display: flex;
+  justify-content: center;
+  margin-top: 31px;
+  margin-bottom: -46px;
+}
+#childhood {
+  width: 25vw;
+  height: 22vh;
+  margin: 3%;
+  border-radius: -1px;
+  border-radius: 39px;
+  width: 279px;
+  height: 256px;
+  margin-left: 41px;
+  margin-left: 129px;
+}
+.main__uper__left img {
+  max-width: 185px;
+  max-height: 21vh;
+}
+.paired__images img{
+  width: 200px;
+}
+.gamedev__image img {
+  width: 302px;
+  height: 183px;
+  padding: 17px 6px;
+  border-radius: 43px;
+  margin-left: 66px;
+}
+.ai img {
+  width: 49vw;
+  height: 34vh;
+  margin: 2rem 1rem;
+  margin-top: 117px;
+  margin-left: 74px;
+}
+
+.erdata img, .resume img {
+  max-width: 50vw;
+  max-height: 35vh;
+  margin: 30px;
+}
+.table:first-child { width: 1% }
+}
+
+

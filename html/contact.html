@@ -20,81 +20,142 @@
       <header>
         <div class="header">
           <div class="logo">
-            <img src="../image/mylogo.png" alt="" />
+            <img id="logo" src="../image/mylogo.png" alt="logo image" />
           </div>
-          <div class="nav">
-            <ul id="e">
-              <li class="nav-element">
-                <a class="ancher" href="../index.html">Home</a>
-              </li>
-              <li class="nav-element">
-                <a class="ancher" href="About.html">About</a>
-              </li>
-              <li class="nav-element">
-                <a class="ancher" href="Academic.html">Academics</a>
-              </li>
-              <li class="nav-element">
-                <a class="ancher" href="Hobbies.html">Hobbies</a>
-              </li>
-              <li class="nav-element">
-                <a class="ancher" href="Future.html">Future</a>
-              </li>
-              <li class="nav-element">
-                <a class="ancher" href="contact.html">Contact</a>
-              </li>
+          <div class="navigation">
+            <input type="checkbox" class="toggle-menubar" />
+            <div class="humburger"></div>
+            <ul class="menu">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="Academic.html">Academic</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="Future.html">Future</a></li>
+              <li><a href="Hobbies.html">Hobbies</a></li>
             </ul>
-            <div class="mob-nav">
-              <div class="aaa"></div>
-              <div class="bbb"></div>
-              <div class="ccc"></div>
-            </div>
           </div>
         </div>
       </header>
 
       <main>
         <div class="main">
-          <div class="uper">
-            
-            <div class="boxA">
+          <div class="main__uper">
+            <div class="main__uper__boxA">
               <div>
-                <h3>Network</h3>
+                <h3 id="net">Network</h3>
               </div>
               <div class="bot">
                 <img
-                id="community"
-                src="../image/community network.jfif"
-                alt=""
-              />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                asperiores ratione obcaecati, nam ex quod minus vitae. Esse
-                incidunt unde enim asperiores earum laborum. Magnam voluptatem
-                nemo sunt atque vel?
-              </p>
+                  id="community"
+                  src="../image/community network.jfif"
+                  alt=""
+                />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                  asperiores ratione obcaecati, nam ex quod minus vitae. Esse
+                  incidunt unde enim asperiores earum laborum. Magnam voluptatem
+                  nemo sunt atque vel?
+                </p>
               </div>
-              
             </div>
           </div>
-          <div class="lower">
-            <div class="photo">
-              <form action="">
-                <img id="fb" src="../image/a.jpg" alt="" />
+          <div class="main__lower">
+            <div class="main__lower__list">
+              <div class="main__lower__photo">
+                <img
+                  id="main__lower__photo__facebook"
+                  src="../image/a.jpg"
+                  alt="facebook logo"
+                />
+               
+              </div>
+              <ol>
+                <h5>let's Talk to:</h5>
+                <li>Questions</li>
+                <li>cearer</li>
+                <li>Request</li>
+              </ol>
+            </div>
+         
+            <div class="main__lower__form">
+              <form action="" method="post">
+                <fieldset>
+                  <legend>EMAIL</legend>
+
+                  <div class="desc">
+                    <p id="p2">I am always Responsive to your email.</p>
+                  </div>
+                  <hr />
+                  <div class="email">
+                    <p>
+                      email:
+                      <input
+                        type="text"
+                        placeholder="                @gmail.com"
+                        requered
+                        type="email"
+                        name="email"
+                        size="40"
+                      />
+                    </p>
+                  </div>
+                  <div class="message">
+                    <textarea
+                      name="messageA"
+                      id="textarea1"
+                      cols="50"
+                      rows="12"
+                      placeholder="Here, no formal language requered. just feel free..."
+                      aria-setsize="400"
+                    ></textarea>
+                  </div>
+                  <div class="send">
+                    <input
+                      id="sendingbutten"
+                      type="submit"
+                      value="send to Gizaw"
+                    />
+                    <input id="cancelingbutetn" type="reset" value="clear" />
+                  </div>
+                </fieldset>
               </form>
             </div>
-            <div class="form">
-              <form action="">
-                <h1>Mail me Asap!!!</h1>
-                <p>This is my Aspiration if we becomes connected.</p>
-                <p>if you are confortable</p>
-                <p>mail me at*</p>
-                <input type="text" />
-              </form>
-            </div>
-            <div class="contacts">
-              <h3>let's communicate @...</h3>
-              <!-- <img src="../" alt=""> -->
-              <img src="../image/git.png" alt="" />
+            <div>
+              <div class="contacts">
+                <h3>
+                  let's connect <br />
+                  @........
+                </h3>
+                <div class="git">
+                  <a href="https://github.com/GizawAAiT"
+                    ><img src="../image/git.png" alt=""
+                  /></a>
+                </div>
+                <div class="twit">
+                  <a href="https://twitter.com/GizawAait"
+                    ><img src="../image/twiter.jfif" alt=""
+                  /></a>
+                </div>
+                <div class="fb">
+                  <a href="https://www.facebook.com/gizaw.dagne.9"
+                    ><img src="../image/fb.jfif" alt=""
+                  /></a>
+                </div>
+                <div class="tele">
+                  <a href="https://t.me/DGizaw"
+                    ><img src="../image/isntagram.jfif" alt=""
+                  /></a>
+                </div>
+                <div class="email1">
+                  <a href="mailto:gizawaait@gmail.com"
+                    ><img src="../image/email.jfif" alt=""
+                  /></a>
+                </div>
+                <div id="butten">
+                  <div class="m"></div>
+                  <div class="n"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -20,46 +20,31 @@
       <header>
         <div class="header">
           <div class="logo">
-            <img src="../image/mylogo.png" alt="my website logo" />
+            <img id="logo" src="../image/mylogo.png" alt="logo image" />
           </div>
-          <div class="nav">
-            <ul id="e">
-              <li class="nav-element">
-                <a class="ancher" href="../index.html">Home</a>
-              </li>
-              <li class="nav-element">
-                <a class="ancher" href="About.html">About</a>
-              </li>
-              <li class="nav-element">
-                <a class="ancher" href="Academic.html">Academics</a>
-              </li>
-              <li class="nav-element">
-                <a class="ancher" href="Hobbies.html">Hobbies</a>
-              </li>
-              <li class="nav-element">
-                <a class="ancher" href="Future.html">Future</a>
-              </li>
-              <li class="nav-element">
-                <a class="ancher" href="contact.html">Contact</a>
-              </li>
+          <div class="navigation">
+            <input type="checkbox" class="toggle-menubar" />
+            <div class="humburger"></div>
+            <ul class="menu">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="Academic.html">Academic</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="Future.html">Future</a></li>
+              <li><a href="Hobbies.html">Hobbies</a></li>
             </ul>
-            <div class="mob-nav">
-              <div class="aaa"></div>
-              <div class="bbb"></div>
-              <div class="ccc"></div>
-            </div>
           </div>
         </div>
       </header>
 
       <main>
         <div class="main">
-          <div class="up">
-            <div class="left">
-              <div class="history">
+          <div class="main__uper">
+            <div class="main__uper__left">
+              <div class="main__uper__left__history">
                 <div class="one">
                   <h1 id="myhistory">My Biography</h1>
-                  <img id="childhood" src="../image/erdat.jfif" alt="" />
+                  <img id="childhood" src="../image/erdat.jfif" alt="my childhood photo" />
                   <p>
                     My parent gives birth to me in 1999, january-11. I grew in a
                     small village in northern part of ethiopia. I have completed
@@ -67,12 +52,12 @@
                   </p>
                 </div>
                 <div class="two">
-                  <div class="p">
-                    <img class="pair" src="../image/highschool.jfif" alt="" />
-                    <img class="pair" src="../image/bg.bmp" alt="" />
+                  <div class="paired__images">
+                    <img class="pair" src="../image/highschool.jfif" alt="highschool image" />
+                    <img class="pair" src="../image/bg.bmp" alt="prep photo" />
                   </div>
 
-                  <p>
+                  <p class="shooldescription">
                     I joined Bulga secondary school in 2015. the school is not
                     that much supportive since many Educational facilities and
                     other technologies are not fullfiled.
@@ -87,10 +72,9 @@
                     yesterdays dream.
                   </p>
                 </div>
-                <div class="four"></div>
               </div>
             </div>
-            <div class="middle">
+            <div class="main__uper__middle">
               <ol>
                 <h3>OUTLINE</h3>
                 <li>My Biography</li>
@@ -98,19 +82,19 @@
                 <li>MY GOAL</li>
               </ol>
             </div>
-            <div class="right">
-              <div class="goal">
-                <h2>MY GOALS</h2>
+            <div class="main__uper__right">
+              <div class="main__uper__right__goal">
+                <h2 id="A">MY GOALS</h2>
                 <div class="gamedev">
                   <h3>Video game</h3>
-                  <div class="imggame">
+                  <div class="gamedev__image">
                     <img
-                      class="gamea"
+                      class="mobilegame"
                       src="../image/mobgame.jfif"
                       alt="mobile game"
                     />
                     <img
-                      class="gamea"
+                      class="cargame"
                       src="../image/cargame.jfif"
                       alt="car game"
                     />
@@ -143,8 +127,8 @@
               </div>
             </div>
           </div>
-          <div class="low">
-            <h1>MY WORK</h1>
+          <div class="main__lower">
+            <h1 id="main__lower__h1">MY WORK</h1>
             <div class="erdata">
               <div class="boxx">
                 <h2>currently I am working on Erdata Project at AAiT</h2>
@@ -156,11 +140,13 @@
                   childrens in Addis Ababa to the humanity supportive
                   individuals and organisations with simple web based interface
                   with globl scope.
-                </p><hr>
+                </p>
+                <hr />
                 <p>
                   At this time, the requerement specification and Design has
                   been finished and the development will begin Asap.
-                </p><hr>
+                </p>
+                <hr />
                 <p>
                   the project is already published so that you can see the
                   progress using the following publication adress (link).
@@ -170,11 +156,15 @@
             </div>
             <div class="resume">
               <div class="box2">
-                <img src="../image/re.jpg" alt="">
-                <h2> Are you looking for A developer to your small scale website?</h2>
-                <p>I could design and develop easly scalable, responsive and market level
-                  website for your business. I could show you a quick demo as per your requerement.
-                  here is the link to my cv so you can download it!
+                <img src="../image/re.jpg" alt="" />
+                <h2>
+                  Are you looking for A developer to your small scale website?
+                </h2>
+                <p>
+                  I could design and develop easly scalable, responsive and
+                  market level website for your business. I could show you a
+                  quick demo as per your requerement. here is the link to my cv
+                  so you can download it!
                 </p>
                 <a href="https://gizawaait.github.io/Resume/">RESUME</a>
               </div>
@@ -191,22 +181,22 @@
                   <tr>
                     <td>Backend Technology</td>
                     <td>40%</td>
-                    <td>0.5 years</td>                    
+                    <td>0.5 years</td>
                   </tr>
                   <tr>
                     <td>Frontend</td>
                     <td>80%</td>
-                    <td>1.5 years</td>                    
+                    <td>1.5 years</td>
                   </tr>
                   <tr>
                     <td>Graphics and vector logo design</td>
                     <td>60%</td>
-                    <td>2 years</td>                    
+                    <td>2 years</td>
                   </tr>
                   <tr>
                     <td>Android</td>
                     <td>30%</td>
-                    <td>0.4years</td>                    
+                    <td>0.4years</td>
                   </tr>
                 </table>
               </div>
