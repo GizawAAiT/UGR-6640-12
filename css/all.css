@@ -177,8 +177,7 @@ footer {
 to right,
 rgba(20, 17, 68, 0.692),
 rgba(20, 4, 39, 0.733)
-/* rgba(202, 11, 202, 0.678),
-rgba(37, 87, 94, 0.562) */
+
 
 );
   margin-bottom: -22px;
@@ -200,4 +199,13 @@ rgba(37, 87, 94, 0.562) */
 }
 .addisababa img {
   margin-left: 5vw;
+}
+@media screen and (max-width:600px) {
+  .addisababa{
+    display: none;
+  }
+  .foot{
+    display: flex;
+    justify-content: space-around;
+  }
 }
