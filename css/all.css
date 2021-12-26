@@ -143,6 +143,14 @@ footer{
   right: 0;
   box-shadow: -20px 0 40px rgba(252, 252, 252, 0.877);
 }
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  right: 62px;
+  margin: 0 8px 0 0;
+}
+
 @media screen and (max-width: 750px) {
   .humburger,
   .toggle-menubar {
@@ -201,11 +209,25 @@ rgba(20, 4, 39, 0.733)
   margin-left: 5vw;
 }
 @media screen and (max-width:600px) {
-  .addisababa{
+  .col-D{
     display: none;
+
   }
   .foot{
     display: flex;
     justify-content: space-around;
   }
 }
+
+ @media screen and (max-width :350px) {
+  .foot {
+    display: flex;
+    margin: 4% 21vw;
+    /* justify-content: space-between; */
+    justify-items: flex-start;
+}
+#mail{
+  width: 100px;
+  height: 40px;
+}
+ }

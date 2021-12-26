@@ -134,28 +134,12 @@ grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 }
 @media screen and (max-width:800px) {
-  
 .main{
-  display: grid;
-  grid-template-rows: auto auto auto auto auto;
-}
-/* .list1{
-  grid-row: 1;
-}
-.video-ball{
-  grid-row: 2;
-}
-.flexbox{
-  grid-row: 3;
+  display: flex;
+  flex-direction: column;
 }
 
-
-.meme{
-  grid-row: 4;
-}
-.rectangle{
-  grid-row: 5;
-} */
+  
 
 }
 

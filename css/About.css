@@ -171,19 +171,16 @@ table td{
   }
 
   .main__uper__left {
-    grid-row: 2;
-    grid-column: 1;
-    margin-top: 15vh;
-    max-width: 35vw;
-    max-height: 50vh;
-    border: 2px solid #3c1a699e;
+    max-width: 80vw;
+    max-height: 59vh;
+    border: 7px solid #3c1a699e;
     overflow-y: auto;
-    margin-left: 35px;
-  }
+    margin-left: 31px;
+    justify-content: center;
+    padding: 0 19px;
+}
 
   .main__uper__right {
-    grid-row: 2;
-    grid-column: 2;
     display: flexbox;
     max-width: 35vw;
     max-height: 50vh;
@@ -191,7 +188,9 @@ table td{
     overflow-y: auto;
     margin-right: 0;
     background: rgba(49, 85, 85, 0.267);
-  }
+    justify-content: center;
+    padding: 0 15px;
+}
   .main__uper__left__history .one {
     padding: 4rem 0;
     display: flex;
@@ -258,6 +257,15 @@ table td{
 }
 
 @media screen and (max-width: 900px) {
+  .paired__images img {
+    width: 22vw;
+    height: 20vh;
+    border-radius: 10px;
+    margin-left: 9vw;
+    gap: 154px;
+    margin-bottom: 30px;
+    margin-top: 26px;
+}
 
   .main__uper {
     display: flex;
@@ -328,7 +336,7 @@ table td{
   width: 279px;
   height: 256px;
   margin-left: 41px;
-  margin-left: 129px;
+  margin-left: 46px;
 }
 .main__uper__left img {
   max-width: 185px;
@@ -360,4 +368,69 @@ table td{
 .table:first-child { width: 1% }
 }
 
+@media screen and (max-width:550px) {
+  .main__uper__right img {
+    margin-left: 7px;
+    padding: 23px 50px;
+}
+.main__uper__right {
+  display: flexbox;
+  max-width: 80vw;
+  max-height: 65vh;
+  border: 9px solid #003f8070;
+  overflow-y: auto;
+  margin-right: 0;
+  background: rgba(49, 85, 85, 0.267);
+  margin-left: 30px;
+  margin-top: 90px;
+  padding: 0 56px;
+}
 
+}
+@media screen and (max-width:520px) {
+  .gamedev__image img {
+    width: 302px;
+    height: 183px;
+    padding: 17px 6px;
+    border-radius: 43px;
+    margin-left: 1px;
+}
+.gamedev__image img {
+  width: 302px;
+  height: 183px;
+  padding: 17px 6px;
+  border-radius: 43px;
+  margin-left: 0;
+}
+.main__uper__right img {
+  margin-left: -107px;
+  padding: 23px 50px;
+}
+.main__uper__right {
+  display: flexbox;
+  max-width: 80vw;
+  max-height: 65vh;
+  border: 9px solid #003f8070;
+  overflow-y: auto;
+  margin-right: 0;
+  background: rgba(49, 85, 85, 0.267);
+  margin-left: 16px;
+  margin-top: 90px;
+  padding: 0 110px;
+}
+.main__uper__right p, .main__uper__right h2 ,.main__uper__right h3{
+  width: 100%;
+}
+.main__uper__right {
+  display: flexbox;
+  max-width: 80vw;
+  max-height: 65vh;
+  border: 9px solid #003f8070;
+  overflow-y: auto;
+  margin-right: 0;
+  background: rgba(49, 85, 85, 0.267);
+  margin-left: 16px;
+  margin-top: 90px;
+  padding: 0 0;
+}
+}
