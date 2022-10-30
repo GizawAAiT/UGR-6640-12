@@ -719,3 +719,9 @@ h3.my-profesion {
    max-width: 100%;
  }
 }
+@media (max-width: 470px) {
+  .about .about-content .personal-info .padd-15 {
+     flex: 0 0 100%;
+     max-width: 100%;
+  }
+}
